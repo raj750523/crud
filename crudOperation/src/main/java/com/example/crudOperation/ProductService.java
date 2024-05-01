@@ -17,7 +17,7 @@ public class ProductService {
                 return product;
             }
         }
-        return null; // Or throw an exception
+        return null;
     }
 
     public Product saveOrUpdateProduct(Product product) {
